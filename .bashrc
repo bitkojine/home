@@ -13,4 +13,4 @@ PS1='[\u@\h \W]\$ '
 # connect to it if it is,
 # load the ssh-agent environment variables into your shell,
 # and load your ssh key.
-eval $(keychain --eval --quiet --noask id_ed25519)
+eval $(keychain --eval id_ed25519)
