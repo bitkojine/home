@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# But not these files
+!.gitignore
+!.bashrc
+
+# ...even if they are in subdirectories
+!*/
+
+# Ignore all nested Git repositories
+**/.git/
+
+# Ignore folders called "git"
+**/git/
